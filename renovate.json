@@ -17,8 +17,10 @@
       "extractVersionTemplate": "^(?<version>\\d+\\.\\d+\\.\\d+(?:-pre\\d+)?)$"
     }
   ],
+  "packageRules": [
   {
       "matchPackageNames": ["grpc/grpc"],
       "allowedVersions": "/^\\d+\\.\\d+\\.\\d+$/"
-  }
+  }    
+  ]
 }
