@@ -13,14 +13,7 @@
         "GRPC_FULL_VERSION_BY_RELEASE=\\$\\{GRPC_FULL_VERSION_BY_RELEASE:-(?<currentValue>.*?)\\}\\n"
       ],
       "depNameTemplate": "grpc/grpc",
-      "datasourceTemplate": "github-tags",
-      "extractVersionTemplate": "^(?<version>\\d+\\.\\d+\\.\\d+(?:-pre\\d+)?)$"
+      "datasourceTemplate": "github-tags"
     }
-  ],
-  "packageRules": [
-  {
-      "matchPackageNames": ["grpc/grpc"],
-      "allowedVersions": "/^\\d+\\.\\d+\\.\\d+$/"
-  }    
   ]
 }
