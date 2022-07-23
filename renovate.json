@@ -16,11 +16,5 @@
       "datasourceTemplate": "github-tags",
       "extractVersionTemplate": "^v(?<version>\\d+\\.\\d+\\.\\d+(?:-pre\\d+)?)$"
     }
-  ],
-  "packageRules": [
-    {
-      "matchPackageNames": ["grpc/grpc"],
-      "allowedVersions": "/^v\\d+\\.\\d+\\.\\d+$/"
-    }
   ]
 }
